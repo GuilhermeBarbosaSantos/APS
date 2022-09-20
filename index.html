@@ -5,30 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <title>APS - informações ambientais urbanas</title>
+
+    <!-- Bootstrap CSS-->
+    <!-- Bootstrap JS-->
     
-    <title>APS-informações ambientais e urbanas</title>
 
-    <!-- Bootstrap CSS
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    -->
-
-    <!-- Bootstrap JS
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>-->
-
-    
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    
 
     <link href="images/favicon.png" rel="icon">
 </head>
 <body>
 
-    <div class="text-bg-dark p-3">Dark with contrasting color</div>
-    
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <img src="images/logo-unip.svg" alt="logo UNIP">
-          <a class="navbar-brand" href="#">APS informações ambientais urbanas</a>
+          <a class="navbar-brand" href="#">APS - informações ambientais urbanas</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -40,212 +31,640 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Início</a>
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Energia</a>
+                  <a class="nav-link" href="#">Poluição do ar</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Clima</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Natureza</a>
-                  </li>
-
-                
-                  
-                
-              
-              
+                    <a class="nav-link" href="#">Trânsito</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Áreas de alagamento</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Invasões</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Desmatamento</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Inversão térmica</a>
+                </li>  
+              </ul>
+              <img src="images/logo-unip.svg" alt="" style="margin-top: 95%;">
             </div>
           </div>
         </div>
       </nav>
-      
 
-      <main>
+    <!--<nav class="navbar navbar-expand-lg navbar-light bg-light" id="inicio">
 
+        <div class="container-fluid barra-navegacao">
+            <div class="logo-area">
+                <img src="images/logo-unip.svg" class="d-inline-block align-text-top logo-unip" alt="logo-unip" width="80px" height="80px">
+            </div>
+
+          <div class="navbar-brand aps">
+            Atividades Práticas Supervisionadas 
+          </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse items-menu" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#energia">Energia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#area-verde-e-solo">Área verde e Solo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#clima">Clima</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>-->
+
+      <div class="explicacao-site">
+          <h1>Site de informações ambientais urbanas em São Paulo</h1>
+          <p>poluição do ar - trânsito - áreas de alagamento - invasões das áreas de mananciais - desmatamento -  inversão térmica</p>
+      </div>
+
+      <!-- Energia 
+      <div class="energia" id="energia">
+        <div class="container-fluid">
+            <div class="energia-heading">
+                <h1>Poluição do ar</h1>
+                <h4>Confira algumas notícias sobre poluição do ar em São Paulo</h2>
+            </div>
+            <div class="row linha-cards">
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/ondas.jpg" class="card-img-top" alt="ondas">
+                        <div class="card-body">
+                        <h5 class="card-title">Entenda como ondas e marés podem gerar energia no Brasil</h5>
+                        <p class="card-text">Falta de investimentos em pesquisa e redução de custos ainda dificultam aproveitamento energético dos oceanos.<br>
+                            Os investimentos em fontes renováveis de energia, como a eólica e a solar, têm crescido cada vez mais em meio a preocupações com as mudanças climáticas e a contribuição dos combustíveis fósseis.
+                        </p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://www.cnnbrasil.com.br/business/entenda-como-ondas-e-mares-podem-gerar-energia-no-brasil/" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/garagem.jpeg" class="card-img-top" alt="garagem-subterranea">
+                        <div class="card-body">
+                        <h5 class="card-title">Garagem subterrânea usa calor do solo para aquecer apartamentos</h5>
+                        <p class="card-text">A startup Enerdrape, que funciona dentro na Escola Politécnica de Lausanne (EPFL), na Suíça, desenvolveu uma tecnologia que aproveita o calor 
+                            emanado pelo solo no aquecimento de residências. Painéis geotérmicos instalados em 
+                            estacionamentos subterrâneos recuperam esse calor que é transferido para os apartamentos.</p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://canaltech.com.br/inovacao/garagem-subterranea-usa-calor-do-solo-para-aquecer-apartamentos-198407/" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/economia-energia.jpg" class="card-img-top" alt="economia-energia">
+                        <div class="card-body">
+                        <h5 class="card-title">Consumo consciente: cartilha traz principais orientações para economia de energia</h5>
+                        <p class="card-text">
+                            Ministério de Minas e Energia lançou programa de incentivo à redução voluntária no consumo de energia elétrica.
+                        </p>
+                            <div class="area-botao-leia-mais">
+                                <a href="https://www.gov.br/pt-br/noticias/energia-minerais-e-combustiveis/2021/09/consumo-consciente-cartilha-traz-principais-orientacoes-para-economia-de-energia" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+
+     Plantações 
+
+    <div class="area-verde-e-solo" id="area-verde-e-solo">
+        <div class="container-fluid">
+            <div class="area-verde-e-solo-heading">
+                <h1>Trânsito</h1>
+                <h4>Confira algumas notícias sobre poluição do ar em São Paulo</h2>
+            </div>
+            <div class="row linha-cards">
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/rainha_elizabeth.jpg" class="card-img-top" alt="rainha_elizabeth">
+                        <div class="card-body">
+                        <h5 class="card-title">Ativistas ambientais querem que a rainha Elizabeth plante mais árvores em suas terras</h5>
+                        <p class="card-text">Escócia, país que compõe o Reino Unido, irá receber a conferência global do clima COP26. Petição assinada por mais de 100.000 pessoas foi entregue no Palácio de Buckingham.</p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://revistaoeste.com/mundo/ambientalistas-miram-a-rainha-elizabeth-e-exigem-que-monarca-plante-mais-arvores-em-suas-terras/" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/desmatamento.jpg" class="card-img-top" alt="desmatamento">
+                        <div class="card-body">
+                        <h5 class="card-title">Desmatamento é ameaça econômica para o Brasil, diz relatório</h5>
+                        <p class="card-text">Em documento dirigido ao mercado financeiro, organização britânica afirma que colapso ambiental 
+                            representa um risco para os investidores no país. Mudanças climáticas alteram as chuvas e prejudicam o agronegócio, alerta.</p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://www.dw.com/pt-br/desmatamento-%C3%A9-amea%C3%A7a-econ%C3%B4mica-para-o-brasil-diz-relat%C3%B3rio/a-59217808" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/lixao.jpg" class="card-img-top" alt="lixao">
+                        <div class="card-body">
+                        <h5 class="card-title">Lixão Zero</h5>
+                        <p class="card-text">O “Programa Nacional Lixão Zero” representa um importante passo para a implementação da Política Nacional de Resíduos Sólidos (PNRS).
+                        </p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://www.gov.br/mma/pt-br/assuntos/agendaambientalurbana/lixao-zero" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+
+     Clima 
+    <div class="clima" id="clima">
+        <div class="container-fluid">
+            <div class="clima-heading">
+                <h1>Áreas de alagamento</h1>
+                <h4>Abaixo estão algumas notícias relacionadas ao clima</h2>
+            </div>
+            <div class="row linha-cards">
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/amazonia.png" class="card-img-top" alt="amazonia">
+                        <div class="card-body">
+                        <h5 class="card-title">Todo o Amapá está ameaçado de calor extremo e clima pode ser fatal até 2100, diz pesquisa</h5>
+                        <p class="card-text">Estudo avaliou impacto do aumento da temperatura na saúde da população da Amazônia, que pode virar uma savana se nada for feito para combater o desmatamento.</p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://g1.globo.com/ap/amapa/natureza/amazonia/noticia/2021/10/06/todo-o-amapa-esta-ameacado-de-calor-extremo-e-clima-pode-ser-fatal-ate-2100-diz-pesquisa.ghtml" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/agropecuaria.jpg" class="card-img-top" alt="agropecuaria">
+                        <div class="card-body">
+                        <h5 class="card-title">Método utilizado na agropecuária brasileira ajuda a salvar o planeta</h5>
+                        <p class="card-text">Método utilizado na agropecuária brasileira contribui para a preservação do meio ambiente, reconhece a Convenção-Quadro das Nações Unidas, 
+                            sobre mudança do clima e como as tecnologias de manejo e o sistema Integração Lavoura-Pecuária-Floresta (ILPF) 
+                            permitem e ajudam na sustentabilidade da produção na agropecuária.</p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://www.terra.com.br/noticias/metodo-utilizado-na-agropecuaria-brasileira-ajuda-a-salvar-o-planeta,f4e4d6619193716c01ecfbb81a6aa411oxddwt92.html" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/google.png" class="card-img-top" alt="google">
+                        <div class="card-body">
+                        <h5 class="card-title">Google trará informações sobre sustentabilidade em pesquisas do buscador</h5>
+                        <p class="card-text">Gigante apresentará pegada de carbono de voos, além de informações de sustentabilidade de hotéis e eletrodomésticos e que aplicará inteligência artificial nos semáforos do Rio de Janeiro.</p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://exame.com/tecnologia/google-trara-informacoes-sobre-sustentabilidade-em-pesquisas-do-buscador/" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+     Energia 
+    <div class="energia" id="energia">
+        <div class="container-fluid">
+            <div class="energia-heading">
+                <h1>Invasões das áreas de mananciais</h1>
+                <h4>Abaixo estão algumas notícias relacionadas à geração e consumo de energia</h2>
+            </div>
+            <div class="row linha-cards">
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/ondas.jpg" class="card-img-top" alt="ondas">
+                        <div class="card-body">
+                        <h5 class="card-title">Entenda como ondas e marés podem gerar energia no Brasil</h5>
+                        <p class="card-text">Falta de investimentos em pesquisa e redução de custos ainda dificultam aproveitamento energético dos oceanos.<br>
+                            Os investimentos em fontes renováveis de energia, como a eólica e a solar, têm crescido cada vez mais em meio a preocupações com as mudanças climáticas e a contribuição dos combustíveis fósseis.
+                        </p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://www.cnnbrasil.com.br/business/entenda-como-ondas-e-mares-podem-gerar-energia-no-brasil/" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/garagem.jpeg" class="card-img-top" alt="garagem-subterranea">
+                        <div class="card-body">
+                        <h5 class="card-title">Garagem subterrânea usa calor do solo para aquecer apartamentos</h5>
+                        <p class="card-text">A startup Enerdrape, que funciona dentro na Escola Politécnica de Lausanne (EPFL), na Suíça, desenvolveu uma tecnologia que aproveita o calor 
+                            emanado pelo solo no aquecimento de residências. Painéis geotérmicos instalados em 
+                            estacionamentos subterrâneos recuperam esse calor que é transferido para os apartamentos.</p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://canaltech.com.br/inovacao/garagem-subterranea-usa-calor-do-solo-para-aquecer-apartamentos-198407/" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/economia-energia.jpg" class="card-img-top" alt="economia-energia">
+                        <div class="card-body">
+                        <h5 class="card-title">Consumo consciente: cartilha traz principais orientações para economia de energia</h5>
+                        <p class="card-text">
+                            Ministério de Minas e Energia lançou programa de incentivo à redução voluntária no consumo de energia elétrica.
+                        </p>
+                            <div class="area-botao-leia-mais">
+                                <a href="https://www.gov.br/pt-br/noticias/energia-minerais-e-combustiveis/2021/09/consumo-consciente-cartilha-traz-principais-orientacoes-para-economia-de-energia" class="btn btn-primary">Leia mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+
+     Plantações 
+
+    <div class="area-verde-e-solo" id="area-verde-e-solo">
+        <div class="container-fluid">
+            <div class="area-verde-e-solo-heading">
+                <h1>Desmatamento</h1>
+                <h4>Abaixo estão algumas notícias relacionadas à desmatamento, vegetação e poluição</h2>
+            </div>
+            <div class="row linha-cards">
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/rainha_elizabeth.jpg" class="card-img-top" alt="rainha_elizabeth">
+                        <div class="card-body">
+                        <h5 class="card-title">Ativistas ambientais querem que a rainha Elizabeth plante mais árvores em suas terras</h5>
+                        <p class="card-text">Escócia, país que compõe o Reino Unido, irá receber a conferência global do clima COP26. Petição assinada por mais de 100.000 pessoas foi entregue no Palácio de Buckingham.</p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://revistaoeste.com/mundo/ambientalistas-miram-a-rainha-elizabeth-e-exigem-que-monarca-plante-mais-arvores-em-suas-terras/" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/desmatamento.jpg" class="card-img-top" alt="desmatamento">
+                        <div class="card-body">
+                        <h5 class="card-title">Desmatamento é ameaça econômica para o Brasil, diz relatório</h5>
+                        <p class="card-text">Em documento dirigido ao mercado financeiro, organização britânica afirma que colapso ambiental 
+                            representa um risco para os investidores no país. Mudanças climáticas alteram as chuvas e prejudicam o agronegócio, alerta.</p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://www.dw.com/pt-br/desmatamento-%C3%A9-amea%C3%A7a-econ%C3%B4mica-para-o-brasil-diz-relat%C3%B3rio/a-59217808" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/lixao.jpg" class="card-img-top" alt="lixao">
+                        <div class="card-body">
+                        <h5 class="card-title">Lixão Zero</h5>
+                        <p class="card-text">O “Programa Nacional Lixão Zero” representa um importante passo para a implementação da Política Nacional de Resíduos Sólidos (PNRS).
+                        </p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://www.gov.br/mma/pt-br/assuntos/agendaambientalurbana/lixao-zero" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+
+     Clima 
+    <div class="clima" id="clima">
+        <div class="container-fluid">
+            <div class="clima-heading">
+                <h1>Inversão térmica</h1>
+                <h4>Abaixo estão algumas notícias relacionadas ao clima</h2>
+            </div>
+            <div class="row linha-cards">
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/amazonia.png" class="card-img-top" alt="amazonia">
+                        <div class="card-body">
+                        <h5 class="card-title">Todo o Amapá está ameaçado de calor extremo e clima pode ser fatal até 2100, diz pesquisa</h5>
+                        <p class="card-text">Estudo avaliou impacto do aumento da temperatura na saúde da população da Amazônia, que pode virar uma savana se nada for feito para combater o desmatamento.</p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://g1.globo.com/ap/amapa/natureza/amazonia/noticia/2021/10/06/todo-o-amapa-esta-ameacado-de-calor-extremo-e-clima-pode-ser-fatal-ate-2100-diz-pesquisa.ghtml" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/agropecuaria.jpg" class="card-img-top" alt="agropecuaria">
+                        <div class="card-body">
+                        <h5 class="card-title">Método utilizado na agropecuária brasileira ajuda a salvar o planeta</h5>
+                        <p class="card-text">Método utilizado na agropecuária brasileira contribui para a preservação do meio ambiente, reconhece a Convenção-Quadro das Nações Unidas, 
+                            sobre mudança do clima e como as tecnologias de manejo e o sistema Integração Lavoura-Pecuária-Floresta (ILPF) 
+                            permitem e ajudam na sustentabilidade da produção na agropecuária.</p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://www.terra.com.br/noticias/metodo-utilizado-na-agropecuaria-brasileira-ajuda-a-salvar-o-planeta,f4e4d6619193716c01ecfbb81a6aa411oxddwt92.html" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="card">
+                        <img src="images/google.png" class="card-img-top" alt="google">
+                        <div class="card-body">
+                        <h5 class="card-title">Google trará informações sobre sustentabilidade em pesquisas do buscador</h5>
+                        <p class="card-text">Gigante apresentará pegada de carbono de voos, além de informações de sustentabilidade de hotéis e eletrodomésticos e que aplicará inteligência artificial nos semáforos do Rio de Janeiro.</p>
+                        <div class="area-botao-leia-mais">
+                            <a href="https://exame.com/tecnologia/google-trara-informacoes-sobre-sustentabilidade-em-pesquisas-do-buscador/" class="btn btn-primary">Leia mais</a>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+  -->
+    <div class="container-sm">
+        <div class="energia-heading">
+            <h1>Poluição do ar</h1>
+            <h4>Confira algumas notícias sobre poluição do ar em São Paulo</h2>
+        </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
         
-    <header>
-        <h1>
-            Problemas ambientais e urbanos em São Paulo
-        </h1>
-        <h3>
-            Confira alnguns artigos sobre os prblemas ambientais e urbanos em São Paulo
-        </h3>
-    </header>
+        <div class="col">
+          <div class="card">
+            <img src="images/poluicaosp.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Como lidar com a poluição atmosférica de São Paulo?</h5>
+              <p class="card-text">O problema não é de fácil solução, mas é possível tentar se adaptar para evitar os principais efeitos negativos. São Paulo está entre as cidades mais poluídas do mundo, segundo relatório divulgado pela Organização Mundial da Saúde (OMS) em 2013. Os índices de poluição da capital são superiores aos níveis aceitáveis.</p>
+              <div class="area-botao-leia-mais">
+                <a href="https://www.ecycle.com.br/como-lidar-com-a-poluiasao-atmosferica-de-sao-paulo/" class="btn btn-primary">Leia mais</a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="images/poluicaosp.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Poluição do ar na cidade de SP aumenta 44% em agosto</h5>
+              <p class="card-text">Quantidade de partículas inaláveis finas passou de 18 µg/m³ em agosto de 2019 e de 2020, para 26 µg/m³ neste mês. Situação melhora na capital a partir de sexta-feira (27) com passagem de frente fria que vai trazer chuvas e dispersar os poluentes na atmosfera.</p>
+              <div class="area-botao-leia-mais">
+                <a href="https://g1.globo.com/sp/sao-paulo/noticia/2021/08/26/poluicao-do-ar-na-cidade-de-sp-aumenta-44percent-em-agosto-queimadas-e-fim-da-quarentena-estao-entre-as-causas.ghtml" class="btn btn-primary">Leia mais</a>
+            </div>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+</div>
 
+<div class="container-sm">
+    <div class="energia-heading">
+        <h1>Poluição do ar</h1>
+        <h4>Confira algumas notícias sobre poluição do ar em São Paulo</h2>
+    </div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
     
-
-      <!--<div class="card" style="width: 18rem;">
-        <img src="images/lixao.jpg" class="card-img-top" alt="...">
+    <div class="col">
+      <div class="card">
+        <img src="images/1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="area-botao-leia-mais">
+            <a href="https://exame.com/tecnologia/google-trara-informacoes-sobre-sustentabilidade-em-pesquisas-do-buscador/" class="btn btn-primary">Leia mais</a>
+        </div>
         </div>
       </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="images/lixao.jpg" class="card-img-top" alt="...">
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="images/1.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="area-botao-leia-mais">
+            <a href="https://exame.com/tecnologia/google-trara-informacoes-sobre-sustentabilidade-em-pesquisas-do-buscador/" class="btn btn-primary">Leia mais</a>
+        </div>
         </div>
       </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="images/lixao.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img src="images/lixao.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>-->
-
-      <div class="d-flex bd-highlight">
-        <div class="p-2 w-100 bd-highlight">
-          <h3>Poluição do ar na cidade de SP aumenta 44% em agosto; queimadas e fim da quarentena estão entre as causas</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsum dolores fuga atque tenetur, magni suscipit veniam minus nostrum. Illum tenetur ab, laboriosam atque laudantium provident. Incidunt id consectetur harum!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, aut! Incidunt saepe minima aut debitis voluptate itaque doloribus dolor fuga nobis quia. Harum libero debitis unde blanditiis animi sint assumenda! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cupiditate suscipit maiores temporibus delectus explicabo, cumque molestias, commodi porro molestiae mollitia corporis nisi fuga quis quia dolores neque enim similique.</p>
-
-
-        </div>
-        <div class="p-2 flex-shrink-1 bd-highlight">
-          <div class="card" style="width: 18rem;">
-            <img src="images/lixao.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="d-flex bd-highlight">
-        <div class="p-2 w-100 bd-highlight">
-          <h1>toma teu cu</h1>
-          <h4>sou maconheiro</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsum dolores fuga atque tenetur, magni suscipit veniam minus nostrum. Illum tenetur ab, laboriosam atque laudantium provident. Incidunt id consectetur harum!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, aut! Incidunt saepe minima aut debitis voluptate itaque doloribus dolor fuga nobis quia. Harum libero debitis unde blanditiis animi sint assumenda! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cupiditate suscipit maiores temporibus delectus explicabo, cumque molestias, commodi porro molestiae mollitia corporis nisi fuga quis quia dolores neque enim similique.</p>
-
-
-        </div>
-        <div class="p-2 flex-shrink-1 bd-highlight">
-          <div class="card" style="width: 18rem;">
-            <img src="images/lixao.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="d-flex bd-highlight">
-        <div class="p-2 w-100 bd-highlight">
-          <h1>toma teu cu</h1>
-          <h4>sou maconheiro</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ipsum dolores fuga atque tenetur, magni suscipit veniam minus nostrum. Illum tenetur ab, laboriosam atque laudantium provident. Incidunt id consectetur harum!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, aut! Incidunt saepe minima aut debitis voluptate itaque doloribus dolor fuga nobis quia. Harum libero debitis unde blanditiis animi sint assumenda! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos cupiditate suscipit maiores temporibus delectus explicabo, cumque molestias, commodi porro molestiae mollitia corporis nisi fuga quis quia dolores neque enim similique.</p>
-
-
-        </div>
-        <div class="p-2 flex-shrink-1 bd-highlight">
-          <div class="card" style="width: 18rem;">
-            <img src="images/lixao.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="images/desmatamento.jpg" alt="Imagem de capa do card">
-        <div class="card-body">
-          <h5 class="card-title">Título do card</h5>
-          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-          <a href="#" class="btn btn-primary">Visitar</a>
-        </div>
-      </div>
-
-      <div class="d-flex bd-highlight">
-
-        <div class="p-2 flex-fill bd-highlight">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/desmatamento.jpg" alt="Imagem de capa do card">
-            <div class="card-body">
-              <h5 class="card-title">Título do card</h5>
-              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-              <a href="#" class="btn btn-primary">Visitar</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="p-2 flex-fill bd-highlight">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/desmatamento.jpg" alt="Imagem de capa do card">
-            <div class="card-body">
-              <h5 class="card-title">Título do card</h5>
-              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-              <a href="#" class="btn btn-primary">Visitar</a>
-            </div>
-          </div>
-
-        </div>
-        <div class="p-2 flex-fill bd-highlight">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="images/desmatamento.jpg" alt="Imagem de capa do card">
-            <div class="card-body">
-              <h5 class="card-title">Título do card</h5>
-              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-              <a href="#" class="btn btn-primary">Visitar</a>
-            </div>
-          </div>
-
-
-
-      
-
-
-      
-
+    </div>
     
+    </div>
+  </div>
+</div>
 
+<div class="container-sm">
+    <div class="energia-heading">
+        <h1>Poluição do ar</h1>
+        <h4>Confira algumas notícias sobre poluição do ar em São Paulo</h2>
+    </div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    
+    <div class="col">
+      <div class="card">
+        <img src="images/1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="area-botao-leia-mais">
+            <a href="https://exame.com/tecnologia/google-trara-informacoes-sobre-sustentabilidade-em-pesquisas-do-buscador/" class="btn btn-primary">Leia mais</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="images/1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="area-botao-leia-mais">
+            <a href="https://exame.com/tecnologia/google-trara-informacoes-sobre-sustentabilidade-em-pesquisas-do-buscador/" class="btn btn-primary">Leia mais</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+</div>
 
-</main>
+<div class="container-sm">
+    <div class="energia-heading">
+        <h1>Invasões das áreas de mananciais</h1>
+        <h4>Confira algumas notícias sobre áreas de mananciais em São Paulo</h2>
+    </div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    
+    <div class="col">
+      <div class="card">
+        <img src="images/mananciais1.jpg.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Áreas de mananciais e o crime organizado em Sao Paulo</h5>
+          <p class="card-text">
+            O site do MMA alerta sobre a importância e despicienda (adjetivo, merecedor de desdém) atribuídas ao município e Estado: “Manancial de abastecimento público é a fonte de água doce superficial ou subterrânea utilizada para consumo humano ou desenvolvimento de atividades econômicas.”</p>
+          <div class="area-botao-leia-mais">
+            <a href="https://marsemfim.com.br/areas-de-mananciais-e-o-crime-organizado-em-sao-paulo/#:~:text=Concentradas%20na%20zona%20sul%20da,at%C3%A9%20R%24%20100%20mil.%E2%80%9D" class="btn btn-primary">Leia mais</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="images/mananciais2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Alvarás em Áreas de Proteção de Mananciais</h5>
+          <p class="card-text">Usos, obras ou atividades, que não são licenciáveis em outros locais, estão sujeitas ao licenciamento para obtenção do Alvará de Licença Metropolitana quando localizadas nas Áreas de Proteção dos Mananciais ou na Área de Interesse Especial da Serra do Itapeti, da Região Metropolitana de São Paulo estão. São elas:</p>
+          <div class="area-botao-leia-mais">
+            <a href="https://cetesb.sp.gov.br/licenciamentoambiental/licenca-previa-documentacao-nescessaria/alvaras-em-areas-de-protecao-de-mananciais-da-regiao-metropolitana-de-sao-paulo-quem-deve-solicitar/" class="btn btn-primary">Leia mais</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+</div>
 
-      
+<div class="container-sm">
+    <div class="energia-heading">
+        <h1>Poluição do ar</h1>
+        <h4>Confira algumas notícias sobre poluição do ar em São Paulo</h2>
+    </div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    
+    <div class="col">
+      <div class="card">
+        <img src="images/1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="area-botao-leia-mais">
+            <a href="https://exame.com/tecnologia/google-trara-informacoes-sobre-sustentabilidade-em-pesquisas-do-buscador/" class="btn btn-primary">Leia mais</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="images/1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="area-botao-leia-mais">
+            <a href="https://exame.com/tecnologia/google-trara-informacoes-sobre-sustentabilidade-em-pesquisas-do-buscador/" class="btn btn-primary">Leia mais</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+<div class="container-sm">
+    <div class="energia-heading">
+        <h1>Poluição do ar</h1>
+        <h4>Confira algumas notícias sobre poluição do ar em São Paulo</h2>
+    </div>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    
+    <div class="col">
+      <div class="card">
+        <img src="images/1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="area-botao-leia-mais">
+            <a href="https://exame.com/tecnologia/google-trara-informacoes-sobre-sustentabilidade-em-pesquisas-do-buscador/" class="btn btn-primary">Leia mais</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="images/1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <div class="area-botao-leia-mais">
+            <a href="https://exame.com/tecnologia/google-trara-informacoes-sobre-sustentabilidade-em-pesquisas-do-buscador/" class="btn btn-primary">Leia mais</a>
+        </div>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </div>
+</div>
+      <!--<div class="container-sm">
+      <div class="card-group">
+        <div class="card">
+          <img src="images/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>-->
     <!-- Footer -->
 
     <footer id="footer">
         <div class="container-fluid">
-            <p>Por: Guilherme, Renan, Caio, Rodrigo e Gustavo</p>
-            <p>© Copyright 2022 Universidade Paulista</p>
+            <img src="images/github.png" width="30px" height="30px">
+            <a href="https://github.com/otavioramos/aps-8semestre" class="link-github">Github do projeto</a>
+            <p>© Copyright 2021 Universidade Paulista</p>
         </div>
   </footer>
-        
+
 </body>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-
 </html>
