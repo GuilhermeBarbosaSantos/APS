@@ -58,12 +58,6 @@ header h1{
 }
 
 
-/*.logo-area {
-    border-radius: 70%;
-    padding: 5px;
-    background-color: #023D71;
-}*/
-
 @media (max-width: 991px){
     .card {
         margin-bottom: 2rem;
